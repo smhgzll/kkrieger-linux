@@ -1,0 +1,40 @@
+Copyright (c) 2002-2012, Dierk Ohlerich, Fabian Giesen, Thomas Mahlke,
+Christoph Muetze, Tammo Hinrichs, Bastian Zuehlke.
+Copyright (c) 2026, smhgzll (https://github.com/smhgzll) - Linux port,
+reverse engineering, recovered 2004 code and tools.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------------------------------------------------
+
+Exceptions:
+
+* tools/kkpack/model.asm and tools/kkpack/disfilter.hpp are based on the
+  kkrunchy_k7 sources by Fabian "ryg" Giesen, placed in the public domain.
+
+* The original executable and the game data derived from it (original/,
+  unpacked/, decomp/, port/*/src/data/) are the work of .theprodukkt
+  (farbrausch), released as freeware in 2004. They are included for
+  preservation and interoperability and are NOT covered by the license above.
+
+* DXVK (downloaded by port/dxvk/tools/get_dxvk.sh, not part of this
+  repository) is licensed under the zlib/libpng license.

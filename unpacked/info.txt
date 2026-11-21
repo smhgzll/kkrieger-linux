@@ -1,0 +1,6 @@
+image_base 007c0000
+size_image 00d87000
+oep 00805427
+stage2 007e3da9
+steps 2265610
+imports 44

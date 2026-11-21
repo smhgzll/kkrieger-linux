@@ -1,0 +1,27 @@
+# build output (port/*/build, build-small, build-verify, ...)
+build/
+build-*/
+*.o
+*.d
+/tools/kkrunpack
+/tools/kkpack/kkpack
+/tools/hook/framedump.bin
+__pycache__/
+*.pyc
+.venv/
+
+# cloned reference sources, downloaded dependencies (port/dxvk/third_party)
+/reference/
+third_party/
+
+# large or regenerable analysis artifacts
+/unpacked/image.bin
+/ghidra/
+
+# run-time output
+*.log
+*.tga
+*.raw
+pos.bin
+kkcov*.txt
+framelog*.txt
